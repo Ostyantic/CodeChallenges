@@ -6,4 +6,8 @@ def test_two_sum_exists():
     actual = two_sum(numbers, 8)
     assert actual
 
-
+def test_empty_list():
+    empty_list = []
+    actual = two_sum(empty_list, 8)
+    expected = "empty list"
+    assert actual == expected
