@@ -20,3 +20,13 @@ def test_target_8():
     expected = [1, 2]
 
     assert expected == actual
+
+
+def test_target_6():
+    nums = [1, 3, 4, 3, 5]
+    target = 6
+
+    actual = two_sum(nums, target)
+    expected = [0, 4]
+
+    assert expected == actual
